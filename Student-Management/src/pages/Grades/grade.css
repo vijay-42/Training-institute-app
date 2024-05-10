@@ -1,0 +1,34 @@
+.edit:hover{
+ color: blue;
+}
+.delete:hover{
+    color: red;
+}
+
+@media screen and (max-width: 600px){
+    .search-bar{
+       display: flex;
+ }
+ .text{
+    margin: 0 5px;
+ }
+     .btnicon{
+       height: 30px ;
+       
+
+     }
+     .icons{
+        display: flex;
+     }
+ }
+
+ @media screen and (max-width: 768px){
+    .edit{
+        margin: 0 !important;
+    }
+ }
+ @media screen and (max-width: 992px){
+    .edit{
+        margin: 0 !important;
+    }
+ }

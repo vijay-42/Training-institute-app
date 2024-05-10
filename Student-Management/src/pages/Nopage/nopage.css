@@ -1,0 +1,9 @@
+.rs-ponsive{
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+@media screen and (max-width: 600px) {
+    .rs-ponsive{
+       margin-top: 80px;
+    }
+    
+    }

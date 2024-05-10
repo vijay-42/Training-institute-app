@@ -1,0 +1,14 @@
+@media screen and (min-width:300px) and (max-width: 600px) {
+.form-div{
+    display:block !important;
+}
+.filter{
+    margin: 0 !important;
+}
+}
+
+@media screen and (min-width:600px) and (max-width: 768px) {
+    .form-div{
+        display:block !important;
+    }  
+}

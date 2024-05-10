@@ -1,0 +1,58 @@
+.edit:hover{
+    color: blue;
+}
+.remove:hover{
+    color: red;
+}
+
+@media screen and (min-width: 300px) and (max-width: 600px){
+    /* Student start */
+    .text-hide{
+        display: none;
+        
+    }
+    .min{
+      display: flex;
+    }
+    .Addbtn{
+        height: 40px;
+        margin-top: 25px !important;
+    }
+    .studentext{
+       font-size:20px !important;
+       
+    }
+    .backbtn{
+        font-size: 25px;
+        text-align: center;
+        height: 45px;
+        margin-top:30px !important;
+    }
+    .search-bar{
+        display: flex;
+     }
+     .btnicon{
+        display: flex;
+       
+      }
+    /* Student end */
+   
+    .text{
+        margin:0 !important;
+    }
+    /* Student manage :start */
+    @media screen and (max-width: 768px){
+        .edit{
+            margin: 0 !important;
+        }
+     }
+     @media screen and (max-width: 992px){
+        .edit{
+            margin: 0 !important;
+        }
+     }
+    /* Student manage : end */
+    
+   
+    
+} 

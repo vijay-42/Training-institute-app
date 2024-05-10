@@ -1,0 +1,45 @@
+..React installation code..
+npm create vite@latest Student-Management
+cd Student-Management
+npm install
+npm run dev
+
+..React router installation..
+npm i -D react-router-dom@latest
+
+..React Bootstrap Bootstrap..
+npm install react bootstrap bootstrap
+
+
+..React icon..
+npm install react-icons --save
+
+
+..Antd form..
+npm install antd
+
+..Axios installation..
+npm install axios
+
+
+..Back-end..
+
+create folder
+
+cd foldername
+
+npm install express body-parse mongodb
+npm install cors
+npm install mongodb
+
+Run comment..
+ cd node-backend
+ node server.js 
+
+
+...mongodb collection create... 
+ use Student_Management_System
+
+db.LoginUser.inserOne({"UserName":"Admin","Password":"Admin@123"})
+
+

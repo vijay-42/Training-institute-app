@@ -1,0 +1,95 @@
+
+.purple {
+  border-bottom: 3px solid #a435ef;
+}
+.btncolor {
+  background-color: #6719bd;
+}
+
+.main-container {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.box {
+  cursor: pointer;
+  height: 160px;
+  width: 30%;
+  margin: 20px 15px;
+  border-radius: 10px;
+  color: #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.Dash-link:hover {
+  color: #000;
+  transition-duration: 0.3s;
+}
+
+.Dash-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Login page css */
+.login-container {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.btn:hover {
+  cursor: pointer;
+  background-color: green;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.form-control.border-0:focus {
+  box-shadow: none;
+}
+/* Login page css */
+
+@media screen and (min-width: 299px) and (max-width: 600px) {
+  .rs-margin1 {
+    margin-top: -5px !important;
+  }
+  .rs-margin {
+    margin-top: -40px !important;
+  }
+  .box {
+    height: 160px;
+    width: 100%;
+    margin: 20px 0;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+  .fonts {
+    font-size: 1.1rem !important;
+  }
+  .rs-margin1 {
+    margin-top: -10px !important;
+  }
+
+  .box {
+    width: 45%;
+    margin:15px 10px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 992px) {
+  .fonts {
+    font-size: 1.3rem !important;
+  }
+  .rs-margin1 {
+    margin-top: -10px !important;
+  }
+
+  .box {
+    width: 45%;
+    margin:15px 10px;
+  }
+}

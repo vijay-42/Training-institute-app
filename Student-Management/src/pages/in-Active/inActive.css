@@ -1,0 +1,31 @@
+.box-shadow{
+   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;}
+
+.accept:hover{
+   color: green;
+   
+}
+.delete:hover{
+ color: red;
+}
+
+@media screen and (max-width: 600px){
+   .search-bar{
+      display: flex;
+
+       
+    }
+    .btnicon{
+      display: flex;
+    }
+}
+@media screen and (max-width: 768px){
+   .accept{
+       margin: 0 !important;
+   }
+}
+@media screen and (max-width: 992px){
+   .accept{
+       margin: 0 !important;
+   }
+}
